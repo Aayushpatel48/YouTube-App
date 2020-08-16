@@ -13,6 +13,10 @@
 		C23A1F2724E8B91100A8E5EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C23A1F2524E8B91100A8E5EE /* Main.storyboard */; };
 		C23A1F2924E8B91200A8E5EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C23A1F2824E8B91200A8E5EE /* Assets.xcassets */; };
 		C23A1F2C24E8B91200A8E5EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C23A1F2A24E8B91200A8E5EE /* LaunchScreen.storyboard */; };
+		C24CEB5924E8C5140005D37F /* constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24CEB5824E8C5140005D37F /* constant.swift */; };
+		C24CEB5B24E8C7010005D37F /* videos.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24CEB5A24E8C7010005D37F /* videos.swift */; };
+		C24CEB5D24E8C75F0005D37F /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24CEB5C24E8C75F0005D37F /* model.swift */; };
+		C24CEB5F24E8CBE50005D37F /* constantTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24CEB5E24E8CBE50005D37F /* constantTemplate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		C23A1F2824E8B91200A8E5EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C23A1F2B24E8B91200A8E5EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C23A1F2D24E8B91200A8E5EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C24CEB5824E8C5140005D37F /* constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constant.swift; sourceTree = "<group>"; };
+		C24CEB5A24E8C7010005D37F /* videos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = videos.swift; sourceTree = "<group>"; };
+		C24CEB5C24E8C75F0005D37F /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
+		C24CEB5E24E8CBE50005D37F /* constantTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constantTemplate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				C23A1F2824E8B91200A8E5EE /* Assets.xcassets */,
 				C23A1F2A24E8B91200A8E5EE /* LaunchScreen.storyboard */,
 				C23A1F2D24E8B91200A8E5EE /* Info.plist */,
+				C24CEB5824E8C5140005D37F /* constant.swift */,
+				C24CEB5E24E8CBE50005D37F /* constantTemplate.swift */,
+				C24CEB5A24E8C7010005D37F /* videos.swift */,
+				C24CEB5C24E8C75F0005D37F /* model.swift */,
 			);
 			path = "Youtube-App";
 			sourceTree = "<group>";
@@ -139,8 +151,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C23A1F2424E8B91100A8E5EE /* ViewController.swift in Sources */,
+				C24CEB5D24E8C75F0005D37F /* model.swift in Sources */,
 				C23A1F2024E8B91100A8E5EE /* AppDelegate.swift in Sources */,
 				C23A1F2224E8B91100A8E5EE /* SceneDelegate.swift in Sources */,
+				C24CEB5B24E8C7010005D37F /* videos.swift in Sources */,
+				C24CEB5F24E8CBE50005D37F /* constantTemplate.swift in Sources */,
+				C24CEB5924E8C5140005D37F /* constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
